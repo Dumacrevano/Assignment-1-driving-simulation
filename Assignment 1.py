@@ -17,6 +17,6 @@ if v >= 60:
 else:
     print("speed under the limit"+"(,the speed is " + str(v) + "M/S")
 if s >= Dist:
-    print("you have reached your destination")
+    print("you have reached your destination"+" (destination reached"+ str(s)+"M)")
 else:
-    print("you dont reach your destination")
+    print("you dont reach your destination"+" (destination reached"+ str(s) +"M)")
