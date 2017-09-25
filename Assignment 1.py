@@ -11,7 +11,7 @@ while x < time_on_road:
     x = x + 1
     s = velocity + (acceleration / 2 * x ** 2)
     y = int(s / 10) * "*"
-    print("duration" + str(x) + "=" + y)
+    print("duration" + str(x) + "=\n" + y)
 if v >= 60:
     print("speed limit exceeded,(the speed is " + str(v) + "M/S)")
 else:
